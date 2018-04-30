@@ -12,11 +12,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint /src/*.js --fix"
+    "lint": "eslint ./node_modules/.bin/eslint /src/*.js"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^16.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0"
